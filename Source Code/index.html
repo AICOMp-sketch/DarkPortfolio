@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio – [Your Name]</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="container" aria-label="Primary navigation">
+    <div class="logo" tabindex="0">Portfolio</div>
+    <ul role="list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero container" aria-label="Hero">
+    <div class="hero-text">
+      <h1>[Your Name]</h1>
+      <p>
+        Creative Web Developer & UI Designer specializing in beautiful, modern interfaces and seamless user experiences. Passionate about building accessible, responsive, and engaging web applications.
+      </p>
+      <a href="#projects" class="btn-primary" role="button">View My Work</a>
+      <a href="#contact" class="btn-primary" style="background:var(--accent2);color:var(--bg);">Contact</a>
+    </div>
+    <div class="hero-image" aria-hidden="true">
+      <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=400&q=80" alt="Profile Photo" />
+    </div>
+  </section>
+
+  <section id="about" class="container" aria-label="About">
+    <div class="about-content">
+      <h2>About Me</h2>
+      <p>
+        Hi! I'm [Your Name], a detail-oriented web developer and UI designer with a passion for crafting visually stunning and user-friendly digital experiences. My expertise spans HTML, CSS, JavaScript, and modern frameworks, with a focus on accessibility, dark mode, and responsive layouts. I thrive on turning ideas into interactive, beautiful products that delight users and drive results.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="container" aria-label="Skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <span class="skill-icon">💡</span>
+        <div class="skill-title">UI/UX Design</div>
+        <div class="skill-desc">Modern, accessible, and visually engaging interfaces with a focus on user flow and interaction.</div>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">🖥️</span>
+        <div class="skill-title">Front-End Development</div>
+        <div class="skill-desc">HTML, CSS, JavaScript, React, responsive layouts, and animation for seamless web experiences.</div>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">⚙️</span>
+        <div class="skill-title">Back-End Integration</div>
+        <div class="skill-desc">Node.js, Express, REST APIs, and database integration for robust, scalable applications.</div>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">🌙</span>
+        <div class="skill-title">Dark Mode & Theming</div>
+        <div class="skill-desc">Advanced theming and dark mode support for modern, user-preferred experiences.</div>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">📱</span>
+        <div class="skill-title">Mobile-First Design</div>
+        <div class="skill-desc">Optimized layouts and touch interactions for all devices and screen sizes.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="container" aria-label="Projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img class="project-img" src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80" alt="Project 1" />
+        <div class="project-content">
+          <div class="project-title">BrightLearn Platform</div>
+          <div class="project-desc">
+            A modern online education platform with interactive courses, real-time progress tracking, and a vibrant learner community. Features a custom dark mode UI and responsive design.
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <img class="project-img" src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80" alt="Project 2" />
+        <div class="project-content">
+          <div class="project-title">Portfolio Website</div>
+          <div class="project-desc">
+            A personal portfolio showcasing UI/UX projects, code samples, and design explorations. Built with React and styled-components for a smooth, animated user experience.
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <img class="project-img" src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" alt="Project 3" />
+        <div class="project-content">
+          <div class="project-title">Form Wizard UI</div>
+          <div class="project-desc">
+            A multi-step form wizard with modal windows, real-time validation, and beautiful transitions. Focuses on usability and accessibility for all users.
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container" aria-label="Contact">
+    <h2>Contact</h2>
+    <p>
+      Interested in working together or have a question? Let's connect!
+    </p>
+    <div class="contact-links">
+      <a class="contact-link" href="mailto:youremail@example.com">
+        <span class="contact-icon">✉️</span> Email
+      </a>
+      <a class="contact-link" href="https://linkedin.com" target="_blank">
+        <span class="contact-icon">💼</span> LinkedIn
+      </a>
+      <a class="contact-link" href="https://github.com" target="_blank">
+        <span class="contact-icon">🐙</span> GitHub
+      </a>
+      <a class="contact-link" href="tel:+123456789">
+        <span class="contact-icon">📱</span> Call
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 [Your Name] | Designed & Developed with ❤️ | Powered by Portfolio
+  </footer>
+</body>
+</html>
